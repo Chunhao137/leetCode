@@ -12,7 +12,7 @@ var addDigits = function(num) {
     return 1+(num-1)%9
 }
 
-
+//using recursion 
 var addDigits = function(num) {
     var total = 0; 
     var recur = function(input){
